@@ -60,6 +60,14 @@ Example: python run_genocore.py SelectVCF -i ExampleData/Test_420sample.vcf.gz -
 ![5](https://user-images.githubusercontent.com/49300659/63693278-9ee01280-c84e-11e9-80a0-64ebe9b654af.png)
 
 
+# CoreSet algorithm
+
+The algorithm schematic of "CoreSet", the main submodule, is as follows.
+
+![7](https://user-images.githubusercontent.com/49300659/63694800-3135e580-c852-11e9-89f6-36fad687c100.png)
+
+
+
 # Requirement
 
 python3 and numpy library
