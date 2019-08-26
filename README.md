@@ -38,6 +38,7 @@ Example: python run_genocore.py CoreSet -i ExampleData/Test_420sample.csv -p Exa
 ![3](https://user-images.githubusercontent.com/49300659/63692197-11032800-c84c-11e9-9908-32337abab6e9.png)
 
 ## 3) SelectVCF
+The "SelectVCF" submodule extract a core-set VCF file, using the core-sample-list file created by the "CoreSet" module and the input VCF file used by "VCFtoCSV". The output file is a VCF file for final core samples.
 
 Usage: python run_genocore.py SelectVCF -i [VCF file] -g [Y or N (gziped)] -s [Sample list] -o [Output name]
 
@@ -46,12 +47,11 @@ Example: python run_genocore.py SelectVCF -i ExampleData/Test_420sample.vcf.gz -
 ![5](https://user-images.githubusercontent.com/49300659/63693278-9ee01280-c84e-11e9-80a0-64ebe9b654af.png)
 
 
-
 # Requirement
 
-python3, numpy
+python3 and numpy library
 
-GenoCore python version also works in python 2.0, but we recommend running it in python 3.0 for handling a large data set.
+The GenoCore python version also works in python 2.0, but we recommend running it in python 3.0 for handling a large data set.
 
 
 # Contact
