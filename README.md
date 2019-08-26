@@ -18,6 +18,7 @@ or
 
 git clone https://github.com/JaeYoonKim72/GenoCore_Python
 
+
 cd GenoCore_Python
 
 
