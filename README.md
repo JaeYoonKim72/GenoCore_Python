@@ -1,6 +1,6 @@
 # GenoCore : a simple and fast algorithm for core subset selection from large genotype datasets
 
-The GenoCore python version was developed by Seonmun Jeong and Jae-Yoon Kim. 
+The GenoCore python version was developed by Seongmun Jeong and Jae-Yoon Kim. 
 
 This program is based on the GenoCore R version available at https://github.com/lovemun/Genocore.
 
