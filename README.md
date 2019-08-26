@@ -18,12 +18,12 @@ or
 
 git clone https://github.com/JaeYoonKim72/GenoCore_Python
 
-cd Genocore_Python
+cd GenoCore_Python
 
 
 ## 2) Basic usage
 
-The GenoCore consists of three submodules: VCFtoCSV, CoreSet, SelectVCF
+The GenoCore consists of three submodules: VCFtoCSV, CoreSet, SelectVCF.
 
 Basic usage : python run_genocore.py [ VCFtoCSV | CoreSet | SelectVCF ]  [ Options ]
 
