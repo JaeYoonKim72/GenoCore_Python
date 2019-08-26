@@ -12,7 +12,7 @@ Source code was written in Python language and supported on windows and linux pl
 
 ## 1) Download
 
-git clone https://github.com/lovemun/Genoore_Python
+git clone https://github.com/lovemun/GenoCore_Python
 
 or
 
