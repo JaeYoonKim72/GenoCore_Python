@@ -12,7 +12,7 @@ Source code was written in Python language and supported on windows and linux pl
 
 The GenoCore consists of three submodules: VCFtoCSV, CoreSet, SelectVCF
 
-Basic usage : python run_genocore.py
+Basic usage : python run_genocore.py [ VCFtoCSV | CoreSet | SelectVCF ]  [ Options ]
 
 ![GenoCore1](https://user-images.githubusercontent.com/49300659/63691262-b5379f80-c849-11e9-9288-3337b1695431.jpg)
 
