@@ -1,8 +1,18 @@
 # GenoCore : a simple and fast algorithm for core subset selection from large genotype datasets
 
+The GenoCore python version was developed by Seonmun Jeong and Jae-Yoon Kim. 
+
+This program is based on the GenoCore R version available at https://github.com/lovemun/Genocore.
+
+Source code was written in Python language and supported on windows and linux platform.
+
+
+
+# Usage
+
+
 Usage : Rscript run_genocore.R input_file -cv coverage -d difference -o result_file_name
 
-Genocore is available at https://github.com/lovemun/Genocore. Source code was written in R language and supported on windows and linux platform.
 
 # Requirement
 
@@ -15,6 +25,7 @@ GenoCore python version also works in python 2.0, but we recommend running it in
 lovemun@kribb.re.kr
 
 jaeyoonkim72@gmail.com
+
 
 # Citation
 
