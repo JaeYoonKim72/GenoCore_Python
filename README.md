@@ -10,6 +10,7 @@ Source code was written in Python language and supported on windows and linux pl
 
 # Usage
 
+![GenoCore1](https://user-images.githubusercontent.com/49300659/63691101-4b1efa80-c849-11e9-995b-0de6038fbd3b.jpg)
 
 Usage : Rscript run_genocore.R input_file -cv coverage -d difference -o result_file_name
 
