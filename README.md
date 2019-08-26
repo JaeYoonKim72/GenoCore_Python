@@ -17,6 +17,17 @@ Basic usage : python run_genocore.py [ VCFtoCSV | CoreSet | SelectVCF ]  [ Optio
 ![GenoCore1](https://user-images.githubusercontent.com/49300659/63691262-b5379f80-c849-11e9-9288-3337b1695431.jpg)
 
 
+
+## 1) VCFtoCSV
+The "VCFtoCSV" submodule converts a VCF file into a CSV file for GenoCore.
+
+Usage : python run_genocore.py VCFtoCSV -i [VCF file] -o [Output name] -p [Y or N (phased)] -g [Y or N (gziped)]
+
+Example : python 
+
+![2](https://user-images.githubusercontent.com/49300659/63691813-2b88d180-c84b-11e9-9284-3b3cc2bc8197.png)
+
+
 # Requirement
 
 python3, numpy
