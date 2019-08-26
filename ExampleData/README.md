@@ -1,4 +1,4 @@
-<Data description>
+#Data description
   
 
 The "Test_420sample.vcf.gz" file is cosisted of 16,902 SNP markers and 420 samples.
