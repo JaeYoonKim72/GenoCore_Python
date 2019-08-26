@@ -28,6 +28,15 @@ Example: python run_genocore.py VCFtoCSV -i ExampleData/Test_420sample.vcf.gz -o
 ![2](https://user-images.githubusercontent.com/49300659/63691813-2b88d180-c84b-11e9-9284-3b3cc2bc8197.png)
 
 
+## 2) CoreSet
+The "CoreSet" submodule is the main module and performs core sample extraction.
+
+Usage: python run_genocore.py CoreSet -i [CSV file] -p [Preset txt] -c [Coverage rate] -d [Covergence rate], -o [Output name], -m [MAF]
+
+Example: python run_genocore.py CoreSet -i ExampleData/Test_420sample.csv -p ExampleData/Preset.txt -c 99 -d 0.001 -o ExampleData/TestCoreSet -m 0.05
+
+![3](https://user-images.githubusercontent.com/49300659/63692197-11032800-c84c-11e9-9908-32337abab6e9.png)
+
 # Requirement
 
 python3, numpy
