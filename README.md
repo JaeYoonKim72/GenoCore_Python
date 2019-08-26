@@ -10,6 +10,19 @@ Source code was written in Python language and supported on windows and linux pl
 
 # Usage
 
+## 1) Download
+
+git clone https://github.com/lovemun/Genocore_Python
+
+or
+
+git clone https://github.com/JaeYoonKim72/GenoCore_Python
+
+cd Genocore_Python
+
+
+## 2) Basic usage
+
 The GenoCore consists of three submodules: VCFtoCSV, CoreSet, SelectVCF
 
 Basic usage : python run_genocore.py [ VCFtoCSV | CoreSet | SelectVCF ]  [ Options ]
@@ -17,8 +30,7 @@ Basic usage : python run_genocore.py [ VCFtoCSV | CoreSet | SelectVCF ]  [ Optio
 ![GenoCore1](https://user-images.githubusercontent.com/49300659/63691262-b5379f80-c849-11e9-9288-3337b1695431.jpg)
 
 
-
-## 1) VCFtoCSV
+## 3) VCFtoCSV
 The "VCFtoCSV" submodule converts a VCF file into a CSV file for GenoCore. The output file is a CSV file for that VCF.
 
 Usage: python run_genocore.py VCFtoCSV -i [VCF file] -o [Output name] -p [Y or N (phased)] -g [Y or N (gziped)]
@@ -28,7 +40,7 @@ Example: python run_genocore.py VCFtoCSV -i ExampleData/Test_420sample.vcf.gz -o
 ![2](https://user-images.githubusercontent.com/49300659/63691813-2b88d180-c84b-11e9-9284-3b3cc2bc8197.png)
 
 
-## 2) CoreSet
+## 4) CoreSet
 The "CoreSet" submodule is the main module and performs core sample extraction. The output files are core-sample-list, core-sample-csv and core-sample-coverage files, and removed-marker file.
 
 Usage: python run_genocore.py CoreSet -i [CSV file] -p [Preset txt] -c [Coverage rate] -d [Covergence rate], -o [Output name], -m [MAF]
@@ -37,7 +49,7 @@ Example: python run_genocore.py CoreSet -i ExampleData/Test_420sample.csv -p Exa
 
 ![3](https://user-images.githubusercontent.com/49300659/63692197-11032800-c84c-11e9-9908-32337abab6e9.png)
 
-## 3) SelectVCF
+## 5) SelectVCF
 The "SelectVCF" submodule extract a core-set VCF file, using the core-sample-list file created by the "CoreSet" module and the input VCF file used by "VCFtoCSV". The output file is a VCF file for final core samples.
 
 Usage: python run_genocore.py SelectVCF -i [VCF file] -g [Y or N (gziped)] -s [Sample list] -o [Output name]
