@@ -12,7 +12,7 @@ Source code was written in Python language and supported on windows and linux pl
 
 ## 1) Download
 
-git clone https://github.com/lovemun/Genocore_Python
+git clone https://github.com/lovemun/Genoore_Python
 
 or
 
@@ -70,9 +70,8 @@ The algorithm schematic of "CoreSet", the main submodule, is as follows.
 
 # Requirement
 
-python3 and numpy library
-
-The GenoCore python version also works in python 2.0, but we recommend running it in python 3.0 for handling a large data set.
+The GenoCroe python requires python 3.0 and numpy library.
+It also works in python 2.0, but python 3.0 is recommended for handling a large data set.
 
 
 # Contact
