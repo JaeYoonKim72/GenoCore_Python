@@ -36,7 +36,10 @@ The "VCFtoCSV" submodule converts a VCF file into a CSV file for GenoCore. The o
 
 Usage: python run_genocore.py VCFtoCSV -i [VCF file] -o [Output name] -p [Y or N (phased)] -g [Y or N (gziped)]
 
-Example: python run_genocore.py VCFtoCSV -i ExampleData/Test_420sample.vcf.gz -o ExampleData/Test_420sample.csv -p Y -g Y
+    Example: python run_genocore.py VCFtoCSV -i ExampleData/Test_420sample.vcf.gz \
+                                             -o ExampleData/Test_420sample.csv \
+                                             -p Y \
+                                             -g Y
 
 ![2](https://user-images.githubusercontent.com/49300659/63691813-2b88d180-c84b-11e9-9284-3b3cc2bc8197.png)
 
@@ -46,7 +49,12 @@ The "CoreSet" submodule is the main module and performs core sample extraction. 
 
 Usage: python run_genocore.py CoreSet -i [CSV file] -p [Preset txt] -c [Coverage rate] -d [Covergence rate], -o [Output name], -m [MAF]
 
-Example: python run_genocore.py CoreSet -i ExampleData/Test_420sample.csv -p ExampleData/Preset.txt -c 99 -d 0.001 -o ExampleData/TestCoreSet -m 0.05
+    Example: python run_genocore.py CoreSet -i ExampleData/Test_420sample.csv \
+                                            -p ExampleData/Preset.txt \
+                                            -c 99 \
+                                            -d 0.001 \
+                                            -o ExampleData/TestCoreSet \
+                                            -m 0.05
 
 ![3](https://user-images.githubusercontent.com/49300659/63692197-11032800-c84c-11e9-9908-32337abab6e9.png)
 
@@ -55,7 +63,10 @@ The "SelectVCF" submodule extract a core-set VCF file, using the core-sample-lis
 
 Usage: python run_genocore.py SelectVCF -i [VCF file] -g [Y or N (gziped)] -s [Sample list] -o [Output name]
 
-Example: python run_genocore.py SelectVCF -i ExampleData/Test_420sample.vcf.gz -g Y -s ExampleData/TestCoreSet_CoreSample_list.txt -o ExampleData/TestCoreSet_CoreSample.vcf
+    Example: python run_genocore.py SelectVCF -i ExampleData/Test_420sample.vcf.gz \
+                                              -g Y \
+                                              -s ExampleData/TestCoreSet_CoreSample_list.txt \
+                                              -o ExampleData/TestCoreSet_CoreSample.vcf
 
 ![5](https://user-images.githubusercontent.com/49300659/63693278-9ee01280-c84e-11e9-80a0-64ebe9b654af.png)
 
