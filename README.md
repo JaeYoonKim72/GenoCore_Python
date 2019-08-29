@@ -28,7 +28,7 @@ The GenoCore consists of three submodules: VCFtoCSV, CoreSet, SelectVCF.
 
 Basic usage : python run_genocore.py [ VCFtoCSV | CoreSet | SelectVCF ]  [ Options ]
 
-![GenoCore1](https://user-images.githubusercontent.com/49300659/63691262-b5379f80-c849-11e9-9288-3337b1695431.jpg)
+![GenoCore1](https://user-images.githubusercontent.com/49300659/63915739-be0aba00-ca71-11e9-95a9-9e132f3c7e0b.png)
 
 
 ## 3) VCFtoCSV
